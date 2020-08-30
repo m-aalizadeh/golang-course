@@ -12,14 +12,12 @@ func main() {
 		rem := temp % 10
 		temp = temp / 10
 		sum += factorial(rem)
-		//fmt.Println(rem,number,sum)
 	}
 	if sum == number {
 		fmt.Printf("%d is a strong number.", number)
 	}else {
 		fmt.Printf("%d is not a strong number.", number)
 	}
-	//fmt.Println(sum)
 }
 
 func factorial(number int) int {
