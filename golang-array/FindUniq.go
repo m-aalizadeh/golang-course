@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+// time complexiy: O(n)
+// extra space complexity: O(1)
+
 func main() {
 	myarr := [...]int{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1}
 	var tmp = myarr[0]
